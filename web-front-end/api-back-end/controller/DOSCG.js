@@ -18,4 +18,14 @@ const findingXYZ = (req, res) => {
     res.send(number)
 }
 
-module.exports = { findingXYZ }
+const findingBC = (req, res) => {
+    let a = 21
+    let b = 23 - a
+    let c = -21 - a
+
+    let number = [a, b, c]
+
+    res.send(number)
+}
+
+module.exports = { findingXYZ, findingBC }
