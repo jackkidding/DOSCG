@@ -2,14 +2,33 @@ import React from 'react'
 
 class ValueAnswer extends React.Component {
 
+    constructor(props) {
+        super(props)
+
+        this.state = {
+            answer: "",
+        }
+    }
+
+    componentDidMount() {
+        const { url } = this.props
+
+        fetch(url)
+            .then(response => response.json())
+            .then(answer => this.setState(answer))
+    }
+
+
     render() {
-        const { question, description, answer } = this.props
+        const { question, description } = this.props
+        const { answer } = this.state
+
         return (
-            <div class="jumbotron">
-                <h1 class="display-4">{question}</h1>
-                <p class="lead">{description}</p>
-                <hr class="my-4">
-                </hr><p> Answer: {answer}</p>
+            <div className="jumbotron">
+                <h1 className="display-4">{question}</h1>
+                <p className="lead">{description}</p>
+                <hr className="my-4">
+                </hr><p> Answer: {answer} </p>
             </div>
         )
     }

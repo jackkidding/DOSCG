@@ -15,7 +15,7 @@ const findingXYZ = (req, res) => {
     let y = number[1]
     let z = number[6]
 
-    res.send(number)
+    res.json({answer: 'X = ' + x + ', Y = ' + y + ', Z = ' + z})
 }
 
 const findingBC = (req, res) => {
@@ -23,9 +23,7 @@ const findingBC = (req, res) => {
     let b = 23 - a
     let c = -21 - a
 
-    let number = [a, b, c]
-
-    res.send(number)
+    res.json({answer: 'B = ' + a + ', C = ' + b})
 }
 
 module.exports = { findingXYZ, findingBC }
