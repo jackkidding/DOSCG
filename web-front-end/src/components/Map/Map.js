@@ -59,7 +59,7 @@ class Map extends React.Component {
       initMap()
 
       return (
-        <div>
+        <div className="container">
           <div id="map" style={{width: "70%", height: 1100, float:"right"}}></div>
           <div id="directionsPanel" style={{width: "30%", height: 1100, float:"left"}}></div>
         </div>
