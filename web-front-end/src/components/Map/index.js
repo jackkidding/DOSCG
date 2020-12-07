@@ -1,6 +1,5 @@
 /*global google*/
 
-import logo from './logo.svg';
 import './style.css';
 import { GoogleMap } from '@googlemaps/map-loader'
 import React from 'react';
@@ -53,7 +52,7 @@ const calculateAndDisplayRoute = (directionsService, directionsRenderer) => {
 }
 
 
-class App extends React.Component {
+class Map extends React.Component {
   
     render() {
 
@@ -68,4 +67,4 @@ class App extends React.Component {
     }
 }
 
-export default App;
+export default Map;
