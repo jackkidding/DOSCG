@@ -61,8 +61,8 @@ class Map extends React.Component {
       return (
         <div className="container">
           <div className="row">
-            <div class="col-8"><div id="map"></div></div>
-            <div class="col-4"><div id="directionsPanel"></div></div>
+            <div className="col-8"><div id="map"></div></div>
+            <div className="col-4"><div id="directionsPanel"></div></div>
           </div>
         </div>
       );
