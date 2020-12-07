@@ -59,12 +59,10 @@ class Map extends React.Component {
       initMap()
 
       return (
-        <div className="container">
           <div className="row">
             <div className="col-8"><div id="map"></div></div>
             <div className="col-4"><div id="directionsPanel"></div></div>
           </div>
-        </div>
       );
     }
 }

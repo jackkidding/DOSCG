@@ -6,16 +6,16 @@ class Header extends React.Component {
             <div class="card-header">
                 <ul class="nav nav-tabs card-header-tabs">
                 <li class="nav-item">
-                    <a class="nav-link" href="/" data-toggle="tab" aria-selected="true">My CV</a>
+                    <a class="nav-link" href="/" >My CV</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="/" data-toggle="tab" aria-selected="false">Finding X, Y, Z</a>
+                    <a class="nav-link" href="/DOSCG/xyz" >Finding X, Y, Z</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="/" data-toggle="tab" aria-selected="false">Finding B & C</a>
+                    <a class="nav-link" href="/DOSCG/bc" >Finding B & C</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="/DOSCG/map" data-toggle="tab" aria-selected="false">Map Direction</a>
+                    <a class="nav-link" href="/DOSCG/map" >Map Direction</a>
                 </li>
                 </ul>
             </div>
