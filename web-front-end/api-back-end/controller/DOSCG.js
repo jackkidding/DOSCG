@@ -23,7 +23,7 @@ const findingBC = (req, res) => {
     let b = 23 - a
     let c = -21 - a
 
-    res.json({answer: 'B = ' + a + ', C = ' + b})
+    res.json({answer: 'B = ' + b + ', C = ' + c})
 }
 
 module.exports = { findingXYZ, findingBC }
