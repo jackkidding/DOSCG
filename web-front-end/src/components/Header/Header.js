@@ -6,7 +6,7 @@ class Header extends React.Component {
             <div className="card-header">
                 <ul className="nav nav-tabs card-header-tabs">
                 <li className="nav-item">
-                    <a className="nav-link" href="/" >My CV</a>
+                    <a className="nav-link" href="/DOSCG/cv" >My CV</a>
                 </li>
                 <li className="nav-item">
                     <a className="nav-link" href="/DOSCG/xyz" >Finding X, Y, Z</a>
